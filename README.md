@@ -20,4 +20,6 @@ Exemples:
 Nota: La ordenación es un tema clásico de la algoritmia, con mucha profundidad. En este ejercicio
 no evaluaremos eficiencia, pero hablaremos de ello :)
 
+Tenéis 30 minutos.
+
 A por ello!
