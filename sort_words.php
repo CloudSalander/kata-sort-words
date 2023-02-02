@@ -25,9 +25,16 @@
  	$wordslist1 = ['hola','as','PHP','estudiar'];
  	$wordslist2 = ['chachi','supercaligfragilistipuesquialidoso','esternoclidomastoideo'];
  	$wordslist3 = ['h','',' ','sopa','res'];
+ 	$wordslist4 = array("manzana", "plátano", "pera", "naranja");
+ 	$wordslist5 = array("rojo", "azul", "verde", "amarillo");
+ 	$wordslist6 = array("gato", "perro", "ratón", "conejo");
+ 	$wordslist7 = array("México", "Colombia", "Argentina", "Perú");
 
- 	var_dump(sortWords($wordslist1));
- 	var_dump(sortWords($wordslist2));
- 	var_dump(sortWords($wordslist3));
+ 	$wordsLists = array($wordslist1,$wordslist2,$wordslist3,$wordslist4,$wordslist5,
+ 		$wordslist6,$wordslist7);
+
+ 	foreach($wordsLists as $wordslist) {
+ 		var_dump(sortWords($wordslist));
+ 	}
 
 ?>
